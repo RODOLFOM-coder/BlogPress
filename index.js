@@ -3,8 +3,13 @@ const app = express ();
 const bodyParser = require("body-parser");
 const coonection = require("./database/database");
 const connection = require('./database/database');
+
 const categoriesController = require("./categories/CategoriesController");
 const articlesController = require("./articles/ArticlesController");
+
+const Article = require("./articles/article.js");
+const Category = require("./categories/Category");
+
 
 //viwm engine
 
